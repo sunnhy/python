@@ -1,17 +1,3 @@
-# Try writing a program that:
-
-# 1 Add student
-# 2 View students
-# 3 Remove student
-# 4 Exit
-
-# Use:
-
-# while
-
-# dictionary
-
-# if/elif
 
 students = {}
 while True:

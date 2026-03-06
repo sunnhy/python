@@ -5,7 +5,7 @@ while True:
     print(f"2. View Students")
     print(f"3. Remove Student")
     print(f"4.Exit")
-    choice = input("Enter choice number: ")
+    choice = input("\nEnter choice number: ")
     if choice == "1":
         name = input("Enter the name of the student: ")
         if name in students:
@@ -21,15 +21,15 @@ while True:
             for name in students:
                 print(name)
     elif choice == "3":
-        name = input("Enter the student name to remove: ")
+        name = input("\nEnter the student name to remove: ")
         if name in students:
             del students[name]
-            print(f"Student removed successfully!!")
+            print(f"\nStudent removed successfully!!")
         else:
-            print(f"Student not found")
+            print(f"\nStudent not found")
     elif choice == "4":
-        print(f"Exiting the program")
+        print(f"\nExiting the program")
         break
     else:
-        print(f"Invalid Choice")
+        print(f"\nInvalid Choice")
 
